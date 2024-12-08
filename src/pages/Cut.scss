@@ -1,0 +1,261 @@
+$white-color: white;
+$black-color: black;
+$mini-text-color : #949494;
+$link-decoration:none;
+$fontFamily :Philosopher;
+@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
+
+.cut-p1 {
+    height: 65vh;
+    width: 100%;
+    position: relative;
+}
+
+.cut-p1-p1 {
+    margin-top: 3vh;
+    height: 60vh;
+    width: 45%;
+    padding: 10vh;
+    position: absolute;
+    margin-left: 10vh;
+}
+
+.cut-p1-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.cut-p1-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.cut-p1-p2 {
+    margin-top: 3vh;
+    height: 60vh;
+    width: 45%;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.cut-p1-p2 img {
+    height: 60vh;
+    width: 100%;
+}
+
+.cut-p2 {
+    margin-top: 7vh;
+    height: 85vh;
+    width: 100%;
+    position: relative;
+}
+
+.cut-p2-p1 {
+    margin-top: 10vh;
+    height: 60vh;
+    width: 45%;
+    position: absolute;
+    margin-left: 10vh;
+}
+
+.cut-p2-p2 {
+    height: 82vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.cut-p2-p1 img {
+    height: 60vh;
+    width: 100%;
+}
+
+.cut-p2-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.cut-p2-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.cut-p2-p2 p {
+    color: $mini-text-color;
+}
+
+.cut-p2-p2 h4 {
+    color: $white-color;
+}
+
+.cut-p3 {
+    height: 65vh;
+    width: 100%;
+    margin-top: 9vh;
+}
+
+.cut-p3-p1 {
+    margin-top: 7vh;
+    height: 60vh;
+    width: 45%;
+    padding: 10vh;
+    position: absolute;
+    margin-left: 10vh;
+}
+
+.cut-p3-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.cut-p3-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.cut-p3-p2 {
+    margin-top: 3vh;
+    height: 60vh;
+    width: 45%;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.cut-p3-p2 img {
+    height: 60vh;
+    width: 100%;
+}
+
+.cut-p4 {
+    height: 60vh;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.cut-p4-p1 {
+    margin-top: 3vh;
+    height: 55vh;
+    width: 40%;
+    position: absolute;
+    margin-left: 10vh;
+}
+
+.cut-p4-p2 {
+    height: 50vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.cut-p4-p1 img {
+    height: 55vh;
+    width: 100%;
+}
+
+.cut-p4-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.cut-p4-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.cut-p5 {
+    height: 65vh;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.cut-p5-p1 {
+    margin-top: 7vh;
+    height: 60vh;
+    width: 45%;
+    padding: 10vh;
+    position: absolute;
+    margin-left: 10vh;
+}
+
+.cut-p5-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.cut-p5-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.cut-p5-p2 {
+    margin-top: 3vh;
+    height: 60vh;
+    width: 45%;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.cut-p5-p2 img {
+    height: 60vh;
+    width: 85%;
+    transform: scaleX(-1);
+    margin-left: 10vh;
+}
+
+.cut-p6 {
+    height: 65vh;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.cut-p6-p1 {
+    margin-top: 3vh;
+    height: 60vh;
+    width: 40%;
+    position: absolute;
+    margin-left: 15vh;
+}
+
+.cut-p6-p2 {
+    height: 45vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 50%;
+}
+
+.cut-p6-p1 img {
+    height: 60vh;
+    width: 95%;
+}
+
+.cut-p6-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.cut-p6-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}

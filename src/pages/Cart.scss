@@ -1,0 +1,335 @@
+$white-color: white;
+$black-color: black;
+$mini-text-color : #949494;
+$link-decoration:none;
+$fontFamily :Philosopher;
+@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
+
+.cart {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.cart-1 h1 {
+    color: $white-color;
+    font-family: $fontFamily;
+    position: absolute;
+}
+
+.cart-1 {
+    height: 8vh;
+    width: 90%;
+    margin-top: 2vh;
+    border-bottom: 1px solid $mini-text-color;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.clear-cart-button {
+    position: absolute;
+    padding: 1vh 1.5vh;
+    border: none;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 92%;
+    margin-top: 1vh;
+    text-decoration: none;
+}
+
+.empty-cart-message {
+    font-weight: 600;
+    position: absolute;
+    font-size: x-large;
+    color: #fff;
+    margin-top: 12vh;
+    margin-left: 43%;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 15vh;
+    width: 90%;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 1vh 0;
+}
+
+.cart-item-image {
+    width: 25vh;
+    height: 25vh;
+}
+
+.cart-item-details h3 {
+    color: $white-color;
+    margin: 0 0 10px 10px;
+}
+
+.cart-item-details p {
+    color: $mini-text-color;
+    margin: 0 0 10px 10px;
+}
+
+.remove-button {
+    padding: 1vh 1.5vh;
+    border: none;
+    margin-left: 2vh;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.remove-button:hover {
+    background-color: $mini-text-color;
+    color: $white-color;
+}
+
+.buy-btn {
+    margin: 10px 0 0px 10px;
+    padding: 1vh 1.5vh;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.buy-btn:hover {
+    background-color: $mini-text-color;
+    color: $white-color;
+}
+
+.modal-content {
+    background-color: $black-color;
+    color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgb(130, 130, 130);
+}
+
+.modal-header {
+    border: none;
+}
+
+#input1 .in1,
+#input1 .in2,
+#input1 .in3 {
+    width: 36vh;
+}
+
+.in1 {
+    font-size: 2.5vh;
+    padding: 1.5vh 1vh;
+    margin: 1vh;
+    background-color: transparent;
+    border: 1px solid $mini-text-color;
+    color: $white-color;
+}
+
+.in2 {
+    font-size: 2.5vh;
+    padding: 1.5vh 1vh;
+    margin-left: 2vh;
+    background-color: transparent;
+    border: 1px solid $mini-text-color;
+    color: $white-color;
+}
+
+.in3 {
+    font-size: 2.5vh;
+    padding: 1.5vh 1vh;
+    margin-left: 2vh;
+    width: 30.77vh;
+    color: rgb(91, 91, 91);
+}
+
+.in4 {
+    font-size: 2.5vh;
+    padding: 1.5vh 1vh;
+    background-color: transparent;
+    border: 1px solid $mini-text-color;
+    margin: 1vh 2vh;
+    width: 74vh;
+    color: $white-color;
+}
+
+.l1 {
+    font-size: larger;
+    margin: 1vh;
+    color: rgb(255, 255, 255);
+}
+
+.rb {
+    font-size: large;
+}
+
+.rb label {
+    margin-left: 1vh;
+}
+
+.opd {
+    color: $mini-text-color;
+}
+
+.ckb {
+    margin-left: 2vh;
+}
+
+.btn-submit {
+    background-color: $white-color;
+    color: $black-color;
+    border: none;
+    padding: 1.5vh;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+.place-order-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.totalP {
+    margin-right: 20px;
+    color: $white-color;
+}
+
+.buy-btn.placeorder {
+    border: none;
+    padding: 8px 12px;
+    margin: 15px 0;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.placeorder:hover {
+    background-color: $mini-text-color;
+    color: $white-color;
+}
+
+.modal-content {
+    background-color: $black-color;
+    color: $white-color;
+    box-shadow: 0px 0px 10px 0px rgb(130, 130, 130);
+}
+
+.modal-header {
+    border: none;
+}
+
+.closebtn {
+    color: $white-color;
+    font-weight: bolder;
+}
+
+.closebtn:hover {
+    color: red;
+    font-weight: bolder;
+}
+
+
+#input1 .in1,
+#input1 .in2,
+#input1 .in3 {
+    width: 36vh;
+}
+
+.in1 {
+    font-size: 2.5vh;
+    padding: 1.5vh 1vh;
+    margin: 1vh;
+    background-color: transparent;
+    border: 1px solid $mini-text-color;
+    color: $white-color;
+}
+
+.in2 {
+    font-size: 2.5vh;
+    padding: 1.5vh 1vh;
+    margin-left: 2vh;
+    background-color: transparent;
+    border: 1px solid $mini-text-color;
+    color: $white-color;
+}
+
+.in3 {
+    font-size: 2.5vh;
+    padding: 1.5vh 1vh;
+    margin-left: 2vh;
+    width: 30.77vh;
+    color: rgb(91, 91, 91);
+}
+
+.in4 {
+    font-size: 2.5vh;
+    padding: 1.5vh 1vh;
+    background-color: transparent;
+    border: 1px solid $mini-text-color;
+    margin: 1vh 2vh;
+    width: 74vh;
+    color: $white-color;
+}
+
+.l1 {
+    font-size: larger;
+    margin: 1vh;
+    color: rgb(255, 255, 255);
+}
+
+.rb {
+    font-size: large;
+}
+
+.rb label {
+    margin-left: 1vh;
+}
+
+.opd {
+    color: $mini-text-color;
+}
+
+.ckb {
+    margin-left: 2vh;
+}
+
+
+.totalp,
+.totalINform {
+    display: inline;
+    margin-top: 1vh;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.totalINform {
+    color: rgb(231, 189, 111);
+}
+
+.orderSubmit {
+    margin-top: 1vh;
+    background-color: $white-color;
+    color: $black-color;
+    border: none;
+    padding: 1.5vh;
+    font-size: larger;
+    font-weight: 600;
+    width: 100%;
+}

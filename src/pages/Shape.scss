@@ -1,0 +1,410 @@
+$white-color: white;
+$black-color: black;
+$mini-text-color : #949494;
+$link-decoration:none;
+$fontFamily :Philosopher;
+@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
+
+.shape-p1 {
+    width: 100%;
+    height: 67vh;
+    position: relative;
+}
+
+.shape-p1-p1 {
+    width: 45%;
+    height: 65vh;
+    margin-left: 10vh;
+    position: absolute;
+}
+
+.shape-p1-p1 img {
+    width: 100%;
+    height: 65vh;
+}
+
+.shape-p1-p2 {
+    height: 65vh;
+    width: 45%;
+    padding: 8vh;
+    margin-top: 3vh;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.shape-p1-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p1-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.parent {
+    margin: 2vh;
+    width: 30vh;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before,
+.parent:focus .child:before {
+    display: block;
+}
+
+.slick-slide .parent .child img {
+    width: 30vh;
+    height: 160px;
+}
+
+.shape-p2 {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    margin-top: 5vh;
+}
+
+.shape-p2-p2 {
+    width: 40%;
+    margin-left: 57%;
+    height: 60vh;
+    position: absolute;
+}
+
+.shape-p2-p2 img {
+    width: 85%;
+    height: 60vh;
+}
+
+.shape-p2-p1 {
+    height: 60vh;
+    width: 45%;
+    padding: 8vh;
+    margin-left: 15vh;
+    position: absolute;
+}
+
+.shape-p2-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p2-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.shape-p3 {
+    width: 100%;
+    height: 60vh;
+    margin-top: 3vh;
+    position: relative;
+}
+
+.shape-p3-p1 {
+    width: 45%;
+    height: 55vh;
+    margin-left: 10vh;
+    position: absolute;
+}
+
+.shape-p3-p1 img {
+    width: 70%;
+    margin-left: 15vh;
+    height: 55vh;
+}
+
+.shape-p3-p2 {
+    height: 65vh;
+    width: 45%;
+    padding: 8vh;
+    margin-top: 3vh;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.shape-p3-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p3-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.shape-p4 {
+    width: 100%;
+    height: 57vh;
+    margin-top: 3vh;
+    position: relative;
+}
+
+.shape-p4-p2 {
+    width: 40%;
+    margin-left: 60%;
+    height: 52vh;
+    margin-top: 3vh;
+    position: absolute;
+}
+
+.shape-p4-p2 img {
+    width: 100%;
+    height: 52vh;
+}
+
+.shape-p4-p1 {
+    height: 55vh;
+    width: 45%;
+    padding: 8vh;
+    margin-left: 15vh;
+    position: absolute;
+}
+
+.shape-p4-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p4-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.shape-p5 {
+    width: 100%;
+    height: 53vh;
+    margin-top: 3vh;
+    position: relative;
+}
+
+.shape-p5-p1 {
+    width: 45%;
+    height: 50vh;
+    margin-left: 10vh;
+    position: absolute;
+}
+
+.shape-p5-p1 img {
+    width: 85%;
+    margin-left: 10vh;
+    height: 50vh;
+}
+
+.shape-p5-p2 {
+    height: 65vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.shape-p5-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p5-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.shape-p6 {
+    width: 100%;
+    height: 52vh;
+    margin-top: 3vh;
+    position: relative;
+}
+
+.shape-p6-p2 {
+    width: 40%;
+    margin-left: 60%;
+    height: 50vh;
+    position: absolute;
+}
+
+.shape-p6-p2 img {
+    width: 80%;
+    height: 50vh;
+}
+
+.shape-p6-p1 {
+    height: 50vh;
+    width: 45%;
+    padding: 8vh;
+    margin-left: 15vh;
+    position: absolute;
+}
+
+.shape-p6-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p6-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.shape-p7 {
+    width: 100%;
+    height: 53vh;
+    margin-top: 4vh;
+    position: relative;
+}
+
+.shape-p7-p1 {
+    width: 45%;
+    height: 50vh;
+    margin-left: 10vh;
+    position: absolute;
+}
+
+.shape-p7-p1 img {
+    width: 70%;
+    margin-left: 10vh;
+    height: 50vh;
+}
+
+.shape-p7-p2 {
+    height: 50vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.shape-p7-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p7-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.shape-p8 {
+    width: 100%;
+    height: 52vh;
+    margin-top: 7vh;
+    position: relative;
+}
+
+.shape-p8-p2 {
+    width: 40%;
+    margin-left: 55%;
+    height: 50vh;
+    position: absolute;
+}
+
+.shape-p8-p2 img {
+    width: 100%;
+    height: 50vh;
+}
+
+.shape-p8-p1 {
+    height: 50vh;
+    width: 45%;
+    padding: 8vh;
+    margin-left: 15vh;
+    position: absolute;
+}
+
+.shape-p8-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p8-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.shape-p9 {
+    width: 100%;
+    height: 53vh;
+    margin-top: 4vh;
+    position: relative;
+}
+
+.shape-p9-p1 {
+    width: 45%;
+    height: 50vh;
+    margin-left: 10vh;
+    position: absolute;
+}
+
+.shape-p9-p1 img {
+    width: 60%;
+    margin-left: 20vh;
+    height: 50vh;
+}
+
+.shape-p9-p2 {
+    height: 50vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.shape-p9-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.shape-p9-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}

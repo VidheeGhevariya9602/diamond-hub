@@ -1,0 +1,212 @@
+$white-color: white;
+$black-color: black;
+$mini-text-color : #949494;
+$link-decoration:none;
+$fontFamily :Philosopher;
+@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
+
+.link-btn {
+    color: $black-color;
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    color: $black-color;
+}
+
+.link-text {
+    text-decoration: $link-decoration;
+}
+
+
+// Product page -------------------------------------------------
+
+// .list-p1 {
+//     width: 100%;
+//     position: relative;
+//     height: 13vh;
+//     padding: 2vh 0vh 2vh 15vh;
+//     border-bottom: 2px solid grey;
+//     color: $white-color;
+// }
+
+// .list-p1 .like-button {
+//     background-color: transparent;
+//     position: absolute;
+//     border: none;
+//     margin-top: -7vh;
+//     margin-left: 190vh;
+//     outline: none;
+// }
+
+// .list-p1 .cart-button {
+//     background-color: transparent;
+//     position: absolute;
+//     border: none;
+//     margin-top: -7vh;
+//     margin-left: 197vh;
+// }
+
+// .cart-button2 {
+//     background-color: transparent;
+//     border: none;
+// }
+
+// .like-part-1 {
+//     color: $black-color;
+//     height: auto;
+//     width: 100%;
+//     position: relative;
+//     padding: 0.5vh 0.5vh 0vh 0.5vh;
+//     border: 1px solid rgb(94, 94, 94);
+//     margin-bottom: 1.5vh;
+// }
+
+// .like-img {
+//     height: auto;
+//     width: 100%;
+// }
+
+// .offcanvas {
+//     width: 25%;
+// }
+
+// .offcanvas-header {
+//     color: black;
+// }
+
+// .cart-total {
+//     background-color: $black-color;
+//     width: 100%;
+//     padding-top: 2.4vh;
+//     color: $white-color;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .money-total {
+//     margin-left: 20vh;
+// }
+
+// .remove-like {
+//     background-color: transparent;
+//     color: $white-color;
+//     border: none;
+//     position: absolute;
+//     font-size: x-large;
+//     margin-left: 86%;
+// }
+
+// .list-p2 {
+//     height: auto;
+//     margin-top: 2vh;
+//     width: 20%;
+//     position: absolute;
+//     padding: 2vh 3vh;
+//     background-color: rgb(0, 0, 0);
+// }
+
+// .only-line {
+//     background: rgb(33, 33, 33);
+//     height: 0.3vh;
+//     width: 77%;
+//     margin-bottom: 2.5vh;
+// }
+
+// .list-p2 h6 {
+//     text-decoration: underline;
+//     color: rgb(255, 255, 255);
+// }
+
+// .list-p2 button {
+//     margin: 2vh 0vh;
+//     background-color: transparent;
+//     display: block;
+//     border: none;
+//     font-size: 3vh;
+//     color: rgb(133, 133, 133);
+//     cursor: pointer;
+// }
+
+// .cardmain {
+//     margin: 2.5vh;
+//     display: inline-block;
+// }
+
+// .cardmain .card {
+//     background-color: transparent;
+//     border: none;
+// }
+
+// .card-body {
+//     font-weight: 400;
+//     height: auto;
+//     color: white;
+//     width: 100%;
+//     position: relative;
+// }
+
+// .card-body p {
+//     color: rgb(131, 131, 131);
+// }
+
+// .card-part {
+//     width: 72%;
+//     position: absolute;
+//     height: auto;
+//     margin-left: 25%;
+// }
+
+// .card-img {
+//     height: 35vh;
+// }
+
+// .fa-heart-hh {
+//     color: white;
+// }
+
+// .like-button {
+//     background-color: transparent;
+//     border: none;
+//     margin-left: 40vh;
+//     margin-top: -5vh;
+// }
+
+// .modal-image {
+//     width: 30%;
+//     height: 200px;
+//     object-fit: cover;
+//     margin: 1vh;
+// }
+
+// .modal-details ul {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+// }
+
+// .modal-details ul li {
+//     padding-bottom: 0.2vh;
+// }
+
+// Product end ---------------------------------------------------
+
+// Wishlist page ----------------------------------------------------------
+
+// .like-part {
+//     color: white;
+//     background-color: rgb(124, 156, 156);
+//     height: 100vh;
+//     width: 100%;
+//     position: relative;
+// }
+
+// .card-part2 {
+//     background-color: #075E54;
+//     width: 40vh;
+//     position: absolute;
+//     height: 70vh;
+// }
+
+// Wishlist end ----------------------------------------------------------

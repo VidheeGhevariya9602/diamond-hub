@@ -1,0 +1,91 @@
+$white-color: white;
+$black-color: black;
+$mini-text-color : #949494;
+$link-decoration:none;
+$fontFamily :Philosopher;
+@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
+
+.clarity-p1 {
+    height: 65vh;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.clarity-p1-p1 {
+    height: 50vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+
+.clarity-p1-p2 {
+    margin-top: 3vh;
+    margin-left: 55%;
+    height: 60vh;
+    width: 40%;
+    position: absolute;
+}
+
+.clarity-p1-p2 img {
+    height: 60vh;
+    width: 100%;
+}
+
+.clarity-p1-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.clarity-p1-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.clarity-p2 {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    text-align: center;
+    margin-top: 9vh;
+}
+
+.clarity-p2 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.clarity-p2 h6 {
+    font-size: 2.6vh;
+    margin-top: 2vh;
+    line-height: 3.5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.clarity-p2 img {
+    width: 100%;
+    height: 60vh;
+}
+
+.clarityimg {
+    width: 100%;
+    background-image: url(./imgs/i22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    margin-top: 15vh;
+    position: relative;
+}
+
+.clarityimg h1 {
+    position: absolute;
+    color: $white-color;
+    font-family: $fontFamily;
+    margin-left: 55%;
+    margin-top: 12vh;
+}

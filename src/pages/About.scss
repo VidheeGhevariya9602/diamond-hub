@@ -1,0 +1,189 @@
+$white-color: white;
+$black-color: black;
+$mini-text-color : #949494;
+$link-decoration:none;
+$fontFamily :Philosopher;
+@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
+
+.about-p1 {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    border-bottom: 1px solid $mini-text-color;
+}
+
+.about-p1 img {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+
+.about-p1 h1 {
+    color: white;
+    font-size: 10vh;
+    width: 120vh;
+    margin: 15vh 0vh 0vh 90vh;
+    position: absolute;
+    font-family: $fontFamily;
+}
+
+.about-p2 {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    margin-top: 5vh;
+}
+
+.about-p2-p1 {
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    padding: 4vh;
+    margin-left: 2vh;
+}
+
+.about-p2-p1 h3 {
+    font-family: $fontFamily;
+    color: $white-color;
+    letter-spacing: 0.5vh;
+}
+
+.about-p2-p1 h6 {
+    font-size: 3vh;
+    margin-top: 3vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.about-p2-p2 {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    margin-left: 57%;
+}
+
+.about-p2-p2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-p3 {
+    width: 100%;
+    height: 42vh;
+    position: relative;
+    margin-top: 7vh;
+}
+
+.about-p3-p1 {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+}
+
+.about-p3-p1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-p3-p2 {
+    position: absolute;
+    width: 55%;
+    margin-left: 42%;
+    height: 100%;
+    padding: 5vh;
+}
+
+.about-p3-p2 h3 {
+    font-family: $fontFamily;
+    color: $white-color;
+    letter-spacing: 0.5vh;
+}
+
+.about-p3-p2 h6 {
+    font-size: 3vh;
+    margin-top: 3vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.about-p4 {
+    width: 100%;
+    height: 42vh;
+    position: relative;
+    margin-top: 7vh;
+}
+
+.about-p4-p1 {
+    position: absolute;
+    width: 60%;
+    margin-left: 2vh;
+    height: 100%;
+    padding: 5vh;
+}
+
+.about-p4-p1 h3 {
+    font-family: $fontFamily;
+    color: $white-color;
+    letter-spacing: 0.5vh;
+}
+
+.about-p4-p1 h6 {
+    font-size: 3vh;
+    margin-top: 3vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.about-p4-p2 {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 65%;
+}
+
+.about-p4-p2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.dsg {
+    height: 60vh;
+    width: 100%;
+    margin-top: 2vh;
+    position: relative;
+}
+
+.dsg .dsg-2 {
+    width: 45%;
+    height: 60vh;
+    position: absolute;
+    padding: 20vh 14vh;
+    margin-left: 51%;
+}
+
+.dsg-2 h1 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.dsg-2 h4 {
+    color: $mini-text-color;
+    padding: 0vh 1vh 1vh 0vh;
+    width: fit-content;
+    border-bottom: 1px solid $white-color;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dsg .dsg-1 {
+    position: absolute;
+    width: 50%;
+    height: 60vh;
+}
+
+.dsg-1 img {
+    height: 100%;
+    width: 100%;
+}

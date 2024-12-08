@@ -1,0 +1,141 @@
+$white-color: white;
+$black-color: black;
+$mini-text-color : #949494;
+$link-decoration:none;
+$fontFamily :Philosopher;
+@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
+
+.color-p1 {
+    margin-top: 2vh;
+    height: 65vh;
+    width: 100%;
+}
+
+.color-p1-p1 {
+    height: 50vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 10vh;
+}
+
+.color-p1-p2 {
+    margin-top: 3vh;
+    margin-left: 55%;
+    height: 60vh;
+    width: 40%;
+    position: absolute;
+}
+
+.color-p1-p2 img {
+    height: 60vh;
+    width: 100%;
+}
+
+.color-p1-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.color-p1-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.color-p2 {
+    margin-top: 8vh;
+    height: 70vh;
+    width: 100%;
+}
+
+.color-p2-p1 {
+    height: 50vh;
+    width: 45%;
+    padding: 8vh;
+    position: absolute;
+    margin-left: 10vh;
+
+}
+
+.color-p2-p1 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.color-p2-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.color-p2-p2 {
+    margin-left: 50%;
+    height: 65vh;
+    width: 50%;
+    position: absolute;
+}
+
+.color-p2-p2 .container {
+    text-align: center;
+    color: $white-color;
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.color-p2-p2 .container .col-3,
+.col-4,
+.col-1 {
+    padding: 1.5vh 3vh;
+}
+
+.color-p2-p2 .container .col-1 {
+    border: 1.5px solid rgb(171, 171, 171);
+    border-bottom: none;
+}
+
+.color-p2-p2 ul {
+    position: absolute;
+    margin-top: 30vh;
+    color: $white-color;
+    font-size: 4vh;
+    color: yellow;
+    margin-left: 15vh;
+}
+
+.color-p2-p2 .two {
+    color: $white-color;
+    position: absolute;
+    margin-top: 45vh;
+    text-align: center;
+}
+
+.color-p2-p2 .container .col-5,
+.col-7 {
+    padding: 1.5vh 2vh;
+}
+
+.color-p2-p2 .container .col2 {
+    padding: 1.5vh 2vh;
+    font-size: 4vh;
+    font-weight: 600;
+    text-align: center;
+    border: 1.5px solid rgb(171, 171, 171);
+    border-top: none;
+}
+
+.color-h6 {
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 50vh;
+    font-size: 3vh;
+    margin-left: 18vh;
+    font-weight: 100;
+}

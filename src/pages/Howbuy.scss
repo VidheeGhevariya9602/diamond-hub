@@ -1,0 +1,113 @@
+$white-color: white;
+$black-color: black;
+$mini-text-color : #949494;
+$link-decoration:none;
+$fontFamily :Philosopher;
+@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
+
+.howbuy-p1 {
+    margin-top: 5vh;
+    height: 60vh;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.howbuy-p1 h2 {
+    font-family: $fontFamily;
+}
+
+.howbuy-p1-p1 {
+    margin-top: 3vh;
+    height: 55vh;
+    width: 45%;
+    padding: 10vh;
+    position: absolute;
+    margin-left: 10vh;
+}
+
+.howbuy-p1-p1 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.howbuy-p1-p2 {
+    margin-top: 3vh;
+    height: 55vh;
+    width: 45%;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.howbuy-p1-p2 img {
+    height: 55vh;
+    margin-left: 15vh;
+}
+
+.howbuy-p2 {
+    margin-top: 9vh;
+    height: 75vh;
+    width: 100%;
+}
+
+.howbuy-p3 {
+    height: 60vh;
+    margin-top: 5vh;
+    width: 100%;
+    position: relative;
+}
+
+.howbuy-p3 h2 {
+    font-family: $fontFamily;
+    color: $white-color;
+}
+
+.howbuy-p3-p1 {
+    margin-top: 3vh;
+    height: 55vh;
+    width: 45%;
+    position: absolute;
+    margin-left: 10vh;
+}
+
+.howbuy-p3-p2 h6 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    line-height: 5vh;
+    color: $mini-text-color;
+    font-family: sans-serif;
+}
+
+.howbuy-p3-p2 {
+    margin-top: 3vh;
+    padding: 10vh;
+    height: 55vh;
+    width: 45%;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.howbuy-p3-p1 img {
+    height: 55vh;
+    width: 100%;
+}
+
+.howbuy-p3-p2 button {
+    border: none;
+    background-color: $white-color;
+    color: $black-color;
+    font-size: 2.5vh;
+    border-radius: 1vh;
+    padding: 1.5vh 3vh;
+    margin-top: 2vh;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.howbuy-p3-p2 button:hover {
+    background-color: rgb(228, 228, 228);
+    transform: scale(1.1);
+}
